@@ -1,0 +1,343 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+}
+.row {
+    width: 100%;
+    margin-left: 0;
+}
+p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+
+/* Header */
+
+.header {
+    border-bottom: 1px solid white;
+}
+a.navbar-brand img {
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+nav.navbar.navbar-expand-lg.bg-light {
+    background-color: black !important;
+    color: white;
+}
+.navbar-expand-lg .navbar-collapse {
+    flex-flow: row-reverse;
+}
+div#navbarNavAltMarkup a {
+    font-size: 18px;
+    margin: 0 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.btn {
+    height: 45px;
+    background-color: #258B73 !important; 
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #258B73;
+}
+
+/* First Section */
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Second Section */
+
+section.second-section {
+    padding: 50px 0;
+}
+section.second-section .row {
+    align-items: center;
+}
+section.second-section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.Elevate-img {
+    text-align: center;
+}
+.Elevate-img img {
+    width: 60%;
+}
+
+/* Footer */
+
+section.footer {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+section.footer p {
+    text-align: center;
+    font-size: 16px;
+}
+section.footer a {
+    color: white;
+}
+section.footer ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+section.footer ul a {
+    padding: 8px;
+    font-size: 20px;
+}
+
+
+/* Program Page */
+
+section.third-section {
+    background-color: black;
+    padding: 50px 0;
+    color: white;
+}
+section.third-section .row {
+    align-items: center;
+}
+section.third-section .btn {
+    margin-top: 20px;
+    background-color: #258B73;
+}
+section.third-section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+section.third-section .Elevate-img img {
+    width: 100%;
+}
+
+/* Fourth Section */
+
+.row.leadership-heading h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 700;
+}
+.row.services-row {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Cards on right with space to left */
+    gap: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+.services_card{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%
+    ), url('images/4.jpeg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+}
+.services_card1{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%
+    ), url('images/5.jpg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.services_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+      
+      
+.services_card h3, .services_card h4 {
+    font-weight: 700;
+    
+}
+.services_card .btn {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #258B73;
+}
+
+.services_card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+      
+      
+.services_card1 h3, .services_card h4 {
+    font-weight: 700;
+    
+}
+.services_card1 .btn {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #258B73;
+}
+/* About */
+
+.row.leadership-heading p {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+.row.bio-info {
+    margin-bottom: 70px;
+}
+.row.bio-info img {
+    width: 100%;
+}
+.row.bio-info .btn {
+    margin-top: 15px;
+    background-color: #258B73;
+}
+.row.bio-info h3 {
+    font-weight: 700;
+}
+
+/* Contact Page */
+
+section.contact-section {
+    padding: 50px 0;
+}
+section.contact-section h3 {
+    margin-bottom: 30px;
+}
+.contact-info {
+    background-color: #258B73;
+    padding: 50px;
+    color: white;
+}
+.contact-form {
+    padding: 50px;
+}
+.contact-info p {
+    line-height: 40px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:600px){
+    button.navbar-toggler {
+        background-color: white;
+    }
+    .carousel-item img {
+        height: 320px;
+    }
+    section.second-section h2 {
+        font-size: 2rem;
+    }
+    .Elevate-img img {
+        margin-top: 30px;
+    }
+
+    /* Program */
+
+    section.third-section h2 {
+        font-size: 2rem;
+    }
+    .row.services-row {
+        width: 100%;
+    }
+    
+    .services_card {
+        margin-bottom: 30px;
+    }
+    .services_card1 {
+        margin-bottom: 30px;
+    }
+    /* contact page */
+
+    .contact-info {
+        padding: 25px;
+    }
+    .contact-form {
+        padding: 25px;
+    }
+    
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .location {
+    width: 45%;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .location h2 {
+    margin-bottom: 10px;
+  }
+  .bold-heading {
+    font-weight: bold;
+  }
+  .bulletin {
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+  }
+  
+  .bulletin ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bulletin li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+  }
+  
+  .bulletin li i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .bulletin li span {
+    font-weight: bold;
+  }
+  
+  .bulletin li a {
+    color: inherit; 
+  }
